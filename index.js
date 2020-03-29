@@ -14,7 +14,7 @@ client.on("message", async data => {
       //Messages
       const polandEmbed = new Discord.MessageEmbed()
         .setColor("#db3c30")
-        .setTitle("Koronawirus - ilośc zarażonych w Polsce")
+        .setTitle("Koronawirus - ilość zarażonych w Polsce")
         .addFields(
           { name: "Zarażeni:", value: poland.confirmed },
           {
@@ -29,7 +29,7 @@ client.on("message", async data => {
 
       const worldEmbed = new Discord.MessageEmbed()
         .setColor("#488adb")
-        .setTitle("Koronawirus - ilośc zarażonych na świecie")
+        .setTitle("Koronawirus - ilość zarażonych na świecie")
         .addFields(
           { name: "Zarażeni:", value: world.confirmed },
           {

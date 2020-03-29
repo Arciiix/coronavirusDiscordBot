@@ -9,6 +9,7 @@
   "author": "Arciiix",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.1.1"
+    "discord.js": "^12.1.1",
+    "node-fetch": "^2.6.0"
   }
 }
